@@ -19,7 +19,7 @@ type Cluster string
 
 var database *gorm.DB
 
-const useGCloudDB = true
+const useGCloudDB = false
 
 type ClustersToRun string
 
